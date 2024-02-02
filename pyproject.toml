@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "synapsemlpipeline"
+version = "0.1.0"
+description = "Experimentation for the Synapse Data Pipeline"
+authors = ["snyata <core@synavate.tech>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ecs-logging = "^2.1.0"
+elasticsearch = "^8.12.0"
+wandb = "^0.16.2"
+humanloop = "^0.7.4"
+spacy = "^3.7.2"
+Pattern = ""
+textblob = "^0.17.1"
+gensim = "^4.3.2"
+nltk = "^3.8.1"
+llama-index = "^0.9.41"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+typing = "^3.10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
